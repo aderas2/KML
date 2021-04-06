@@ -27,3 +27,7 @@ browseButton.pack()
 kmlButton = tkinter.Button(root,text='Generate KML', command= kmlFunction)
 kmlButton.pack()
 root.mainloop()
+
+
+#pip install pyinstaler
+#pyinstaller --onefile --windowed "GUI convert CSv to KML.py"
